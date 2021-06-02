@@ -1,0 +1,58 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+}
+
+footer {
+    background-color: #f2f2f2;
+    width: 100vw;
+    float: left;
+}
+
+/*============================
+    ID styles
+============================*/
+
+#logo {
+    width: 272px;
+    height: 92px;
+}
+
+#country {
+    display: block;
+    border-bottom: 2px solid #e5e6e8;
+}
+
+/*============================
+    Class styles
+============================*/
+
+.container {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical {
+    flex-direction: column;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.flexEnd {
+    justify-content: flex-end;
+}
