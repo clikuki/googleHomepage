@@ -22,16 +22,12 @@ footer {
 }
 
 button {
-    background-color: #f8f9fa;
     border: none;
     border-radius: 5px;
 }
 
-button:hover {
-    border: 1px solid #e8eaec;
-}
-
 a {
+    color: black;
     text-decoration: none;
 }
 
@@ -85,7 +81,7 @@ a:hover {
 #searchbar {
     height: 40px;
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
 
     border: 1px solid #e7e8eb;
     border-radius: 20px;
@@ -147,13 +143,14 @@ a:hover {
     color: #747590;
 }
 
-.black {
-    color: black;
-}
-
 .searchButton {
+    background-color: #f8f9fa;
     padding: 1em;
     font-size: small;
+}
+
+.searchButton:hover {
+    border: 1px solid #e8eaec;
 }
 
 .container {
